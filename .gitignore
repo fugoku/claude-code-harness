@@ -9,15 +9,12 @@ Thumbs.db
 
 # Editor directories and files
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
 *.code-workspace
 docs/design/
 # Environment variables
-.env
-.env.*
 !.env.example
 
 # Local development
@@ -273,3 +270,9 @@ out/
 !/mcp-server/src/tools/
 /mcp-server/src/tools/*
 !/mcp-server/src/tools/memory.ts
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules

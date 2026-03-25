@@ -1,13 +1,13 @@
 {
   "name": "@claude-code-harness/core",
   "version": "3.0.0",
-  "description": "Claude Code Harness v3 — TypeScript core engine",
+  "description": "Claude Code Harness v3 \u2014 TypeScript core engine",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc",
+    "dev": "node init && tsx src/index.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
